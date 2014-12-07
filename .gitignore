@@ -1,0 +1,6 @@
+npm-debug.log
+app.nw
+node_modules
+node_webkit
+build
+_preprocess

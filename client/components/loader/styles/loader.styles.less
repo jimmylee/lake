@@ -1,0 +1,55 @@
+.component-loader {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.component-loader-object {
+
+    width: 100px;
+    height: 100px;
+
+    border-top: 20x solid blue;
+    border-bottom: 20x solid white;
+    border-left: 20px solid blue;
+    border-right: 20px solid blue;
+
+    .transform(rotate(45deg));
+
+    &.animate {
+
+        .animation(component-loader-animation 100ms linear infinite);
+
+    }
+
+}
+
+@-webkit-keyframes component-loader-animation {
+
+    0% { -webkit-transform: translate(-9px, -25px) rotate(0deg); }
+    100% { -webkit-transform: translate(-9px, -25px) rotate(360deg); }
+
+}
+
+@-moz-keyframes component-loader-animation {
+
+    0% { -moz-transform: translate(-9px, -25px) rotate(0deg); }
+    100% { -moz-transform: translate(-9px, -25px) rotate(360deg); }
+
+}
+
+@keyframes component-loader-animation {
+
+    0% { transform: translate(-9px, -25px) rotate(0deg); }
+    100% { transform: translate(-9px, -25px) rotate(360deg); }
+
+}
