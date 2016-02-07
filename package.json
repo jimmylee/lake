@@ -1,11 +1,21 @@
 {
-  "name": "Lake",
-  "description": "Single page web application skeleton",
-  "repository": "https://github.com/meanJim/lake.git",
+  "name": "lake",
   "version": "0.0.1",
-  "author": "PUT_YOUR_NAME_HERE",
-  "contributors": [],
-  "main": "http://localhost:8001",
+  "description": "Single page web application skeleton with Angular 1.x",
+  "homepage": "https://github.com/meanJim/lake#readme",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "grunt",
+    "less",
+    "skeleton codebase",
+    "seed project",
+    "starter project",
+    "demo"
+  ],
+  "bugs": {
+    "url": "https://github.com/meanjim/lake/issues"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
@@ -20,5 +30,14 @@
     "grunt-md5": "^0.1.11",
     "grunt-mkdir": "^0.1.2",
     "hapi": "^7.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meanjim/lake.git"
+  },
+  "author": {
+    "email": "jimmy-lee@live.com",
+    "name": "Jimmy Lee",
+    "url": "http://jimmyl.ee"
   }
 }
