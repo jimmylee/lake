@@ -2,7 +2,7 @@
   "name": "lake",
   "version": "0.0.1",
   "description": "Single page web application skeleton with Angular 1.x",
-  "homepage": "https://github.com/meanJim/lake#readme",
+  "homepage": "https://github.com/jimmylee/lake#readme",
   "license": "MIT",
   "keywords": [
     "angular",
@@ -14,7 +14,7 @@
     "demo"
   ],
   "bugs": {
-    "url": "https://github.com/meanjim/lake/issues"
+    "url": "https://github.com/jimmylee/lake/issues"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meanjim/lake.git"
+    "url": "https://github.com/jimmylee/lake.git"
   },
   "author": {
     "email": "jimmy-lee@live.com",
