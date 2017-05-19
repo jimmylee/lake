@@ -1,9 +1,9 @@
-#Lake
+# Lake
 > Single page EcmaScript5 web application skeleton.
 
 [AngularJS 1.3](https://angularjs.org/), [LESS](http://lesscss.org/), and [Grunt](http://gruntjs.com/) are powerful tools for single page web application development for 2014. This repository shares the skeleton I use to start front end projects. The assets it builds are perfect for usage with Github's [Electron](https://github.com/atom/electron). It's also a great starting point for a [Parse](https://parse.com) application.
 
-##Prerequisites
+## Prerequisites
 * [Node.js](http://nodejs.org/)
 * Git installed, use 'git --version' to check.
 * Additional commands:
@@ -12,17 +12,17 @@
 npm install -g grunt-cli
 ```
 
-##Setup
+## Setup
 ```sh
 git clone https://github.com/meanJim/lake.git && cd lake && npm install
 grunt      # do this in it's own tab.
 node .     # do this in it's own tab.
 ```
 
-##Use in browser
+## Use in browser
 View **localhost:8001** in your browser.
 
-##File Organization
+## File Organization
 ```
 root
  |-- build
@@ -68,7 +68,7 @@ root
  +-- server.js
 ```
 
-##Features
+## Features
 * A setup for an EcmaScript5 project.
 * A front end codebase without dependency on a database.
 * A development CLI command, and a production CLI command provided by [Grunt](http://gruntjs.com/).
@@ -83,7 +83,7 @@ root
 * An [UI Router](https://github.com/angular-ui/ui-router) for state and routes.
 * [LESS Hat](https://github.com/madebysource/lesshat) for LESS mixins to avoid manually writing vendor prefixes.
 
-##Influencers
+## Influencers
 * John Papa's [AngularJS styleguide](https://github.com/johnpapa/angularjs-styleguide)
 * Addy Osmani's [repos](https://github.com/addyosmani)
 * Jacob Thorton's [repos](https://github.com/fat) and CSS/LESS [medium post](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06)
